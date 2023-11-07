@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Home</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header class="header">
+
+        <a href="#" class="logo"><img src="images/Drink-Coffee-icon.png" alt=""></a>
+
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="index2.html">bean</a>
+            <a href="index3.html">coffee</a>
+            <a href="index4.html">Machine</a>
+
+        </nav>
+
+        <div class="icons">
+            <div id="login-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <!-- login form -->
+
+    <form action="" class="login-form">
+
+        <h3>login form</h3>
+        
+        <input type="text" id="username" placeholder="Enter your username" class="box">
+        <input type="text" id="password" placeholder="Enter your password" class="box">
+        <button type="button" onclick="getInfo()">Login</button>
+
+    </form>
+
+    </header>
+
+
+    <!-- end -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+        <h2 class="deco-title">About us</h2>
+
+        <div class="box-container">
+
+            <div class="image">
+                <img src="images/Drink-Coffee-icon.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title">About Us</h3>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สวัสดีครับ พวกเรานักศึกษามหาลัยศิลปากร และพวกเราคือผู้สร้างเว็บไซต์ MyCoffee ที่รวบรวมข้อมูลทั้งหมดเกี่ยวกับกาแฟที่คุณต้องการรู้จัก ทางเว็บไซต์ของเรามุ่งเน้นการนำเสนอข้อมูลที่เป็นประโยชน์เกี่ยวกับประวัติศาสตร์ของกาแฟ, กระบวนการผลิต, แนวโน้มใหม่ ๆ และนักผลิตกาแฟที่มีชื่อเสียงทั่วโลก
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราหวังว่าเว็บไซต์ของเราจะเป็นที่น่าสนใจและเป็นประโยชน์สำหรับทุกคนที่หลงใหลในกาแฟไม่ว่าคุณจะเป็นนักชง, นักสะสม, หรือคนทั่วไปที่ต้องการเรียนรู้เพิ่มเติมเกี่ยวกับเมล็ดกาแฟและกระบวนการชง เราพร้อมที่จะนำทางคุณไปสู่โลกของกาแฟอย่างลึกซึ้ง หากคุณมีคำถามหรือข้อเสนอแนะใด ๆ ไม่ลังเลที่จะติดต่อเราได้ที่ Mycooffe@gamil.com ขอบคุณที่มาร่วมกันแบ่งปันความรักของเราสำหรับกาแฟที่ยิ่งใหญ่นี้
+                </p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class='fab fa-facebook'></i>
+                    </div>
+                    <div class="icons">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+    <!-- flash New! -->
+
+    <section class="gallery" id="gallery">
+
+        <h2 class="heading">Fresh New!</h2>
+
+        <div class="swiper gallery-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/IceCoffee.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Caramel Macchiato</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/CoffeeBeansBag.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Angle Original Bean</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/IceCoffee2.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Coconut Ice Coffee</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/Moka pot.png" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Moka Pot</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- animals -->
+
+    <section class="animal" id="animal">
+
+        <h2 class="heading">All Content</h2>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/CoffeeBean.jpg" alt="">
+                <div class="content">
+                    <h3>Coffee Bean</h3>
+                    <a href="index2.html" class="btn">see datails</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/IceCoffee.jpg" alt="">
+                <div class="content">
+                    <h3>Coffee</h3>
+                    <a href="index3.html" class="btn">see datails</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Moka pot.png" alt="">
+                <div class="content">
+                    <h3>Machine</h3>
+                    <a href="index2.html" class="btn">see datails</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> 05-6510-1623</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> Mycooffe@Gamil.Com</a>
+                <a href="https://www.google.com/maps/place/Fairleys+IGA+Eaglehawk/@-36.7215644,144.2428089,14.54z/data=!4m15!1m8!3m7!1s0x6ad4314b7e18954f:0x5a4efce2be829534!2z4Lij4Lix4LiQ4Lin4Li04LiB4LiV4Lit4LmA4Lij4Li14LiiIOC4reC4reC4quC5gOC4leC4o-C5gOC4peC4teC4og!3b1!8m2!3d-36.9847807!4d143.3906074!16zL20vMGNoZ3Iy!3m5!1s0x6ad757840ff6f40d:0x7c1a11e6945f59b!8m2!3d-36.7195588!4d144.2534814!16s%2Fg%2F1v42fyxf?authuser=0&entry=ttu" class="links"><i class="fas fa-map-marker-alt"></i> Victoria, Australia</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+                <a href="index2.html" class="links"> <i class="fas fa-arrow-right"></i>Bean</a>
+                <a href="index3.html" class="links"> <i class="fas fa-arrow-right"></i>Coffee</a>
+                <a href="index4.html" class="links"> <i class="fas fa-arrow-right"></i>Machine</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="Your Email" class="email">
+                <a href="#" class="btn">subscribe</a>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- end -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
